@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-4</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h3>Password Genrator</h3>
+    <div class="inputBox">
+      <input type="text" id="passbox" placeholder="P4$5W0RD!" disabled>
+      <span class="img" style="position:relative;left:-70px;"> <img src="images/Copyboard.png" id="copyIcon"
+          alt="copy"></span>
+    </div>
+    <div class="card">
+      <div class="row" style="padding-top:15px">
+        <span class="row-start"> Character &nbsp;&nbsp;Length</span>
+        <span class=" row-end" id="sliderValue">0</span>
+      </div>
+
+      <div class="meter">
+        <input type="range" min="0" max="8" value="0" id="inputSlider">
+      </div>
+      <div class="check-list">
+        <div class="checkbox-list">
+          <input type="checkbox" id="uppercase" name="uppercase">
+          <label for="uppercase">Include Uppercase Letters</label>
+        </div>
+        <div class="checkbox-list">
+          <input type="checkbox" id="lowercase" name="lowercase">
+          <label for="lowercase">Include LowerCase Letters</label>
+
+          <div class="checkbox-list">
+            <input type="checkbox" id="numbers" name="numbers">
+            <label for="numbers">Include Numbers</label>
+          </div>
+          <div class="checkbox-list">
+            <input type="checkbox" id="symbols" name="symbols">
+            <label for="symbols">Include Symbols</label>
+          </div>
+          <div class="strengthbox">
+            <input type="text" class="text-box" placeholder="STRENGTH">
+            <span class="wrapper">
+              <span class="box1"></span>
+              <span class="box2"></span>
+              <span class="box3"></span>
+              <span class="box4"></span>
+            </span>
+          </div>
+          <button type="button" id="getBtn"> GENERATE &nbsp; &nbsp;<img src="images/RightArrow.svg" alt=""></button>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

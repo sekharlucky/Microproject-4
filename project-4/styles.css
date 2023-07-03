@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0c0b10;
+  max-width: 100vw;
+  min-height: 100vh;
+  font-family: Monospaceland;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 450px;
+
+  height: 580px;
+}
+
+h3 {
+  color: #7e7c89;
+  font-size: 25px;
+  text-align: center;
+}
+#passbox {
+  background: #24232b;
+  width: 350px;
+  height: 55px;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+  border: none;
+  margin: 30px;
+}
+.card {
+  height: 400px;
+  background: #24232b;
+  width: 350px;
+
+  color: white;
+  border: none;
+  margin: 30px;
+}
+.row-end {
+  float: right;
+  padding-right: 30px;
+  font-size: 20px;
+  color: #a4ffaf;
+}
+.card h1 {
+  font-size: 16px;
+}
+.rangebox {
+  width: 60%;
+  height: 50px;
+}
+.row-start {
+  margin-left: 15px;
+  padding-top: 20px;
+}
+#inputSlider {
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 15px;
+  height: 10px;
+}
+.check-list {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.checkbox-list input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+.checkbox-list label {
+  font-size: 18px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.text-box {
+  background: #18171f;
+  width: 300px;
+  height: 40px;
+  border: none;
+  margin-top: 15px;
+  color: #82808e;
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  background: #a4ffaf;
+  color: #04210f;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 7px;
+  height: 24px;
+  border: 1px solid white;
+  margin-right: 9px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -33px;
+  left: 60px;
+}
